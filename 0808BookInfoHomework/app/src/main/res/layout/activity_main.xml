@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="360dp"
+        android:layout_height="41dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/holo_orange_light"
+        android:text="    책 정보 입력"
+        android:textColorLink="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etTitle"
+        android:layout_width="365dp"
+        android:layout_height="56dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="제목"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="360dp"
+        android:layout_height="57dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="저자"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPlot"
+        android:layout_width="361dp"
+        android:layout_height="197dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:hint="내용"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="363dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Button" />
+</LinearLayout>
